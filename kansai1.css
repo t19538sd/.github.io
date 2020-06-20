@@ -1,0 +1,27 @@
+.wbun0{
+    color:#0066CC;
+}
+
+.fade1{
+  animation: fadeIn 2.2s ease 0.0s 1 normal;
+}
+
+.bbb{
+  animation: fadeIn 3.3s linear 0.0s 1 normal;
+     visibility: hidden;
+     transform: translateY(40px);
+     transition: all 1s;
+}
+.bbb.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+.wbun1 {
+  font-weight:bold;
+  font-size:20px;
+  text-decoration: none;
+  color:#FFCC33;
+  animation: fadeIn 3.3s linear 0.0s 1 normal;
+}
