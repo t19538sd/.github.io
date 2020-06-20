@@ -1,0 +1,453 @@
+.h1{
+  font-size:100px;
+      animation: fadeIn 1.7s linear 0.0s 1 normal;
+}
+
+.h2{
+      animation: fadeIn 3.3s linear 0.0s 1 normal;
+}
+
+.oya-yoso{
+  width:3500px;
+  height:10000px;
+}
+
+.aaa{
+  animation: fadeIn 3.3s linear 0.0s 1 normal;
+     visibility: hidden;
+     transform: translateY(40px);
+     transition: all 1s;
+}
+.aaa.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+.a{
+  color:#0066CC;
+}
+.b{
+  color:#663300;
+}
+.c{
+  color:#CC3333;
+}
+.d{
+  color:#FFCC33;
+}
+.e{
+  color:#FFCCFF;
+}
+
+
+
+.bun1 {
+  float:left;
+    display:inline-block;
+  font-size:50px;
+  margin-left:20px;
+  margin-right:20px;
+	transition: all .3s ease 0s;
+	text-decoration: none;
+  writing-mode: vertical-rl;
+  color:#0066CC;
+}
+
+.bun1:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.bun2 {
+  display:inline-block;
+  float:left;
+  font-size:30px;
+  margin-left:20px;
+  margin-right:20px;
+
+	transition: all .3s ease 0s;
+	text-decoration: none;
+  color:#0066CC;
+}
+
+.bun2:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.bun3 {
+
+    float:left;
+  font-size:40px;
+  margin-left:20px;
+  margin-right:20px;
+  position:absolute;top:1000px;left:500px;
+	transition: all .3s ease 0s;
+
+	text-decoration: none;
+  color:#0066CC;
+}
+
+.bun3:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.bun4 {
+  font-size:40px;
+  margin-left:20px;
+  margin-right:20px;
+  height:430px;
+  position:absolute;top:400px;left:800px;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+	text-decoration: none;
+  color:#0066CC;
+}
+
+.bun4:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+
+.bun5 {
+    font-size:35px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  display:inline-block;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+  position:absolute;top:700px;left:400px;
+	text-decoration: none;
+  color:#0066CC;
+}
+
+.bun5:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「この世界には見えない階級みたいなのが存在する」*/
+.bun6 {
+    font-size:35px;
+  margin:50px;
+  padding:50px;
+  height:500px;
+	transition: all .3s ease 0s;
+  position:absolute;top:1400px;left:900px;
+	text-decoration: none;
+  color:#CC3333;
+}
+
+.bun6:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「みんながワクワクできる社会を作りたい」*/
+.bun7 {
+    font-size:30px;
+  margin:50px;
+  padding:50px;
+  height:500px;
+  display:inline-block;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+  position:absolute;top:1300px;left:400px;
+	text-decoration: none;
+  color:#CC3333;
+}
+.bun7:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「学校の先生以外の人間が教育に関わっていく世の中を当たり前にしたい」*/
+.bun8 {
+    font-size:20px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+
+	transition: all .3s ease 0s;
+
+  position:absolute;top:1200px;left:100px;
+	text-decoration: none;
+  color:#CC3333;
+}
+.bun8:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「　教育を親や教師に丸投げしない社会　」*/
+.bun9 {
+    font-size:60px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+
+	transition: all .3s ease 0s;
+
+  position:absolute;top:1900px;left:100px;
+	text-decoration: none;
+  color:#CC3333;
+}
+.bun9:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「ただ起業してもつまらない、物語を作りたい」*/
+.bun10 {
+    font-size:30px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+
+	transition: all .3s ease 0s;
+
+  position:absolute;top:2100px;left:200px;
+	text-decoration: none;
+  color:#663300;
+}
+.bun10:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「目で見えない者の価値を意識する」*/
+.bun11 {
+    font-size:30px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  height:1000px;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+  position:absolute;top:1800px;left:1500px;
+	text-decoration: none;
+  color:#663300;
+}
+.bun11:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「つくる人を増やす」*/
+.bun12 {
+    font-size:50px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  height:700px;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+  position:absolute;top:2100px;left:1300px;
+	text-decoration: none;
+  color:#663300;
+}
+.bun12:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*「まず、自分たちが面白がろう」*/
+.bun13 {
+    font-size:60px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  height:700px;
+	transition: all .3s ease 0s;
+
+  position:absolute;top:2300px;left:0px;
+	text-decoration: none;
+  color:#663300;
+}
+.bun13:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.bun14 {
+    font-size:30px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  height:700px;
+	transition: all .3s ease 0s;
+  position:absolute;top:2600px;left:200px;
+	text-decoration: none;
+  color:#663300;
+}
+.bun14:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*自分ではなくサービス自体が褒められる喜び　」*/
+.bun15 {
+    font-size:40px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  height:730px;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+
+  position:absolute;top:300px;left:1450px;
+	text-decoration: none;
+  color:#FFCC33;
+}
+.bun15:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/* 細いきっかけ*/
+.bun16 {
+    font-size:60px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  height:730px;
+	transition: all .3s ease 0s;
+
+  position:absolute;top:400px;left:1650px;
+	text-decoration: none;
+  color:#FFCC33;
+}
+.bun16:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*　友達と起業するも挫折*/
+.bun17 {
+    font-size:30px;
+  padding-top:0px;
+  padding-bottom:0px;
+	transition: all .3s ease 0s;
+  position:absolute;top:600px;left:1850px;
+	text-decoration: none;
+  color:#FFCC33;
+}
+.bun17:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+
+/*自分が不得意だと思っていたのも*/
+.bun18 {
+    font-size:50px;
+  padding-top:0px;
+  padding-bottom:0px;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+  height:400px;
+  position:absolute;top:800px;left:1850px;
+	text-decoration: none;
+  color:#FFCC33;
+}
+.bun18:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*継続してやっていてストレスと感じない*/
+.bun19 {
+    font-size:60px;
+  padding-top:0px;
+  padding-bottom:0px;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+  height:900px;
+  position:absolute;top:200px;left:2250px;
+	text-decoration: none;
+  color:#FFCC33;
+}
+.bun19:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+
+/*目標設定*/
+.bun20 {
+    font-size:120px;
+  padding-top:0px;
+  padding-bottom:0px;
+	transition: all .3s ease 0s;
+  height:900px;
+  position:absolute;top:1300px;left:2250px;
+	text-decoration: none;
+  color:#FFCCFF;
+}
+.bun20:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*逆算思考*/
+.bun21 {
+    font-size:30px;
+  padding-top:0px;
+  padding-bottom:0px;
+	transition: all .3s ease 0s;
+  height:900px;
+  position:absolute;top:1200px;left:2750px;
+	text-decoration: none;
+  color:#FFCCFF;
+}
+.bun21:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*投資をする上で私はそいつが正直かどうかをみている*/
+.bun22 {
+    font-size:60px;
+  padding-top:0px;
+  padding-bottom:0px;
+	transition: all .3s ease 0s;
+  writing-mode: vertical-rl;
+  height:900px;
+  position:absolute;top:1000px;left:3150px;
+	text-decoration: none;
+  color:#FFCCFF;
+}
+.bun22:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*NewNormalな正解に向けたビジネスを考えること*/
+.bun23 {
+    font-size:80px;
+  padding-top:0px;
+  padding-bottom:0px;
+	transition: all .3s ease 0s;
+  height:700px;
+  writing-mode: vertical-rl;
+  position:absolute;top:300px;left:2650px;
+	text-decoration: none;
+  color:#FFCCFF;
+}
+.bun23:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
